@@ -4,13 +4,10 @@ public class Main {
     public static char checkArrayBoundaries (int index) throws ArrayIndexOutOfBoundsException{
 
         char[] myArray = {'a','b','c','d','e','f','g','h','i','j'};
-
         if (index < 0 || index > myArray.length - 1){
             throw new ArrayIndexOutOfBoundsException("Girdiğiniz değer liste sınırları dışında!");
         }
             return myArray[index];
-
-
     }
 
     public static void main(String[] args) {
